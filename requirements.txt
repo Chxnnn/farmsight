@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+pyyaml
+matplotlib
+# Prophet is optional; install if you can build it:
+prophet; sys_platform != 'win32'
+# On Windows, try: pip install prophet --extra-index-url https://pypi.org/simple
+earthengine-api

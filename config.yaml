@@ -1,0 +1,13 @@
+# Basic config for FarmSight
+site_name: "FarmSight Demo"
+latitude: 12.97      # Bengaluru default; change to your field
+field_capacity_mm: 150.0
+wilting_point_mm: 60.0
+kc_values:
+  initial: 0.4
+  mid: 1.15
+  end: 0.7
+moisture_threshold_frac: 0.5   # irrigate when < 50% of FC
+irrigation_amount_mm: 15.0     # per irrigation event
+forecast_horizon_days: 7
+rolling_window_days: 7
